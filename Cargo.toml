@@ -9,8 +9,8 @@ repository = "https://github.com/kloki/prumpt"
 [lib]
 path = "src/lib.rs"
 [[bin]]
-name = "prumpt_gpt"
-parth = "src/prumpt_gpt.rs"
+name = "prumpt_openai"
+parth = "src/prumpt_openai.rs"
 
 [dependencies]
 indicatif = "0.17.8"
