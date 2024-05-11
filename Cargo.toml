@@ -1,6 +1,6 @@
 [package]
 name = "prumpt"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "A cli wrapper around OpenAI to generate files/snippets in different languages that work for me."
 license = "MIT OR Apache-2.0"
@@ -9,7 +9,7 @@ repository = "https://github.com/kloki/prumpt"
 [lib]
 path = "src/lib.rs"
 [[bin]]
-name = "prumpt_openai"
+name = "prumpt"
 parth = "src/prumpt_openai.rs"
 
 [[bin]]
