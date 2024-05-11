@@ -1,5 +1,6 @@
 use std::{env, io};
 
+pub mod ollama;
 pub mod openai;
 
 fn read_from_stdin() -> String {
