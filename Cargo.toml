@@ -1,0 +1,18 @@
+[package]
+name = "prumpt"
+version = "0.1.1"
+edition = "2021"
+description = "A cli wrapper around OpenAI to generate files/snippets in different languages that work for me."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/kloki/prumpt"
+
+[lib]
+path = "src/lib.rs"
+[[bin]]
+name = "prumpt_gpt"
+parth = "src/prumpt_gpt.rs"
+
+[dependencies]
+indicatif = "0.17.8"
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+serde = { version = "1.0", features = ["derive"] }
