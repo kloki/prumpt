@@ -9,12 +9,13 @@ repository = "https://github.com/kloki/prumpt"
 [lib]
 path = "src/lib.rs"
 [[bin]]
+
 name = "prumpt"
-parth = "src/prumpt_openai.rs"
+path = "src/bin/prumpt_openai.rs"
 
 [[bin]]
 name = "prumpt_ollama"
-parth = "src/prumpt_ollama.rs"
+path = "src/bin/prumpt_ollama.rs"
 
 
 [dependencies]
